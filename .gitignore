@@ -1,0 +1,19 @@
+# Paws & Prejudice - Gitignore
+
+# Rendered videos (large files)
+*.mp4
+
+# Temporary files
+/tmp/
+*.tmp
+
+# macOS
+.DS_Store
+.Trash/
+
+# Thumbnail working files (keep final PNGs)
+thumbnails/*_frame.png
+
+# Python cache
+__pycache__/
+*.pyc

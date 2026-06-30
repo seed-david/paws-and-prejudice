@@ -10,10 +10,10 @@ import subprocess, os, sys, argparse
 
 SCRIPTS = {
     "01": [
-        ("BISCUIT. CAT. NETHERFIELD. RICH.", 0.5, 3.5),
-        ("Mm.", 3.5, 4.5),
-        ("FIVE DAUGHTERS.", 5.0, 7.0),
-        ("He has not turned a page in 12 years.", 8.0, 11.5),
+        ("BISCUIT. CAT. NETHERFIELD. RICH.", 0.0, 4.48),
+        ("Mm.", 8.30, 8.88),
+        ("FIVE DAUGHTERS.", 10.38, 11.28),
+        ("He has not turned a page in 12 years.", 12.06, 14.54),
     ],
     "02": [
         ("There. Ten thousand a year.", 0.5, 3.0),
@@ -40,12 +40,32 @@ SCRIPTS = {
     ],
 }
 
-STYLE = "fontcolor=white:fontsize=20:box=1:boxcolor=black@0.6:boxborderw=8:x=(w-text_w)/2:y=h-th-60"
+STYLE = "fontcolor=white:fontsize=40:box=1:boxcolor=black@0.6:boxborderw=12:x=(w-text_w)/2:y=h-th-140:line_spacing=10"
+
+MAX_CHARS_PER_LINE = 28
+
+def wrap_text(text, max_chars=MAX_CHARS_PER_LINE):
+    """Wrap text to multiple lines, splitting at word boundaries"""
+    words = text.split()
+    lines = []
+    current = ""
+    for word in words:
+        test = f"{current} {word}".strip()
+        if len(test) <= max_chars:
+            current = test
+        else:
+            if current:
+                lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return "\\n".join(lines) if len(lines) > 1 else text
 
 def build_filters(lines):
     filters = []
     for text, start, end in lines:
-        escaped = text.replace("'", "\\'").replace(":", "\\:")
+        wrapped = wrap_text(text)
+        escaped = wrapped.replace("'", "\\'").replace(":", "\\:")
         f = f"drawtext=text='{escaped}':{STYLE}:enable='between(t,{start},{end})'"
         filters.append(f)
     return ",".join(filters)

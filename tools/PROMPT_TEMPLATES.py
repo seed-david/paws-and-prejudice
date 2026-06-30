@@ -13,5 +13,7 @@ PROPS_RULE = """CRITICAL PROP RULE: All costumes, bonnets, hats, accessories, ne
 
 VINTAGE_FILM_SUFFIX = """VINTAGE FILM EFFECT: Subtle 35mm film grain throughout. Slight warm amber color shift. Soft vignette at frame edges. Gentle flicker like aged film stock. Muted contrast with lifted blacks. Slight halation around bright light sources. The look of 1970s BBC period drama shot on 16mm. Warm, nostalgic, slightly imperfect. Like watching Pride and Prejudice on a well-loved VHS tape. Dust specks and subtle film weave. NOT digitally clean. NOT modern sharp digital video. The footage should feel like it was discovered in an archive, not rendered yesterday."""
 
+NO_HUMANS_RULE = """CRITICAL: NO HUMANS. ZERO HUMANS. Every single figure in every frame is an ANTHROPOMORPHIC DOG or CAT. Background extras, dancers, silhouettes, crowds — ALL are dogs or cats standing on two legs in Regency costume. No human faces. No human hands. No human bodies. This world contains ONLY anthropomorphic animals. If there is a crowd, every member of the crowd is a dog or cat."""
+
 # Combine for full prompt:
-# FULL_PROMPT = f"{PROMPT_PREFIX}\n\n{BIPEDAL_RULE}\n\n{COSTUME_RULE}\n\n{PROPS_RULE}\n\n{NO_TEXT_RULE}\n\n[EPISODE-SPECIFIC PROMPT]\n\n{VINTAGE_FILM_SUFFIX}"
+# FULL_PROMPT = f"{PROMPT_PREFIX}\n\n{BIPEDAL_RULE}\n\n{COSTUME_RULE}\n\n{NO_HUMANS_RULE}\n\n{PROPS_RULE}\n\n{NO_TEXT_RULE}\n\n[EPISODE-SPECIFIC PROMPT]\n\n{VINTAGE_FILM_SUFFIX}"

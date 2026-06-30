@@ -1,54 +1,43 @@
 # PAWS & PREJUDICE — Visual Styles
 
-This project maintains **two parallel visual styles** for the same cast and world. Every subject can be rendered in either. Pick one per output; do not mix within a single frame. **One canonical ref per subject per style** — single source of truth.
+This project maintains **two parallel visual styles** for the same cast and world, now at **full parity** — every subject exists in both. One canonical ref per subject per style (single source of truth). Pick one style per output; do not mix within a frame.
+
+| | Characters | Locations | Style plates |
+|---|---|---|---|
+| **style-1** (vintage) | 52 | 33 | 2 |
+| **style-2** (premium) | 52 | 33 | — |
 
 ---
 
-## STYLE-1 — "Golden Vintage" (the original)
+## STYLE-1 — "Golden Vintage"
 
-Lo-fi **vintage analog film photography**: real dogs in hand-made Regency costume, faded Kodachrome colour, dust, scratches, snapshot framing. Warm, kitsch, hand-crafted, funny.
+Lo-fi **vintage analog film photography**: real dogs/cats in Regency costume, faded Kodachrome colour, soft focus, film grain, dust, scratches, light leaks. Warm, kitsch, hand-crafted.
 
-- **Style plates:** `style-1/style_ref/` (golden vintage + golden regency)
-- **Character refs:** `style-1/characters/` — **9 core characters**
-- **Location refs:** `style-1/locations/` — Longbourn drawing room
+- `style-1/characters/` — 52 (the 9 original photographic refs + the full roster restyled to vintage)
+- `style-1/locations/` — 33
+- `style-1/style_ref/` — golden vintage + golden regency plates
+- Manifest: [`style-1/MANIFEST.md`](style-1/MANIFEST.md)
 
-| Ref file | Character | Breed |
-|---|---|---|
-| `eliza_ref.jpg` | Eliza Fetchworth | Border Collie |
-| `darcy_ref.jpg` | Lord Darcy Pawsworth | Tuxedo cat |
-| `bingley_ref.jpg` | Lord Bingley Fluffington | Ginger tabby |
-| `mary_ref.jpg` | Mary Fetchworth | Dachshund |
-| `wickham_ref.jpg` | Wickham | Siamese cat |
-| `mr_collins_ref.jpg` | Mr Collins | Chihuahua |
-| `colonel_fitzwilliam_ref.jpg` | Colonel Fitzwilliam | Springer Spaniel |
-| `mr_bennet.jpg` | Lord Biscuit-Bottoms (the father) | Basset Hound |
-| `mrs_bennet.jpg` | Lady Woofington-Barks (the mother) | Pomeranian |
+The 9 original refs keep their names (`eliza_ref.jpg`, `darcy_ref.jpg`, `mr_bennet.jpg` = Lord Biscuit-Bottoms, `mrs_bennet.jpg` = Lady Woofington-Barks, etc.); the rest use the canonical `RENDER_QUEUE` names. All new vintage renders are 4K JPG.
 
-Redundant `_v8` / `_compressed` version files were removed so each subject has exactly one canonical ref.
+## STYLE-2 — "Premium Couture"
 
----
+Hyperreal **MidJourney / Seedream** renders: anthropomorphic dogs *and cats* in couture Regency dress on clean studio backdrops (characters) and opulent photoreal interiors/exteriors (locations).
 
-## STYLE-2 — "Premium Couture" (new)
+- `style-2/characters/` — 52 · `style-2/locations/` — 33
+- Manifest: [`style-2/MANIFEST.md`](style-2/MANIFEST.md)
+- Source / full take-archive: `~/Documents/ComfyUI/output/PAWS&PREJUDICE_STYLE2/`
 
-Hyperreal, high-production **MidJourney / Seedream** renders: anthropomorphic dogs *and cats* in couture Regency dress, bipedal, on clean studio backdrops (characters) and opulent photoreal interiors/exteriors (locations). Cinematic, premium, brand-grade.
-
-- **Manifest:** [`style-2/MANIFEST.md`](style-2/MANIFEST.md)
-- **52 characters · 32 locations = 84 canonical refs** (one per subject).
-- **Source:** `~/Documents/ComfyUI/output/PAWS&PREJUDICE_STYLE2/` (full alternate-take archive lives there, outside the repo).
-
-Hero filenames follow the `RENDER_QUEUE.md` convention (e.g. `style-2/characters/LADY_WOOFINGTON-BARKS.png`), so `style-2/characters/` is a **drop-in ref set** for the Dreamina/Seedance render pipeline.
-
-Style-2 covers the **full Series Bible roster** plus **13 brand-new characters** not yet written into the bible (Baron Drago von Knottenheim, Countess Valentina Meowkowski, Doña Esperanza del Fuego, Lady Ermengarde Floppsworth, Lord Percival Gobbleton, Madame Fifi la Plume, Sir Reginald Bumblechin III, The Archbishop of Snootington, The Honourable Gerald Wobblethwaite, Viscount Reginald Puddlesworth, Lt. Goodpaw, Professor Humphrey, Uncle Gardiner) — see MANIFEST.
-
-**12 subjects folded in from the parallel render batch** during reconciliation: `DOG_FOOTMAN`, and 11 new interiors — Longbourn Breakfast Room / Library / Parlour / Sitting Room / Study, Meryton Milliner's Shop, Netherfield Ballroom / Breakfast Room / Drawing Room / Entrance Hall / Music Room.
+Hero filenames follow the `RENDER_QUEUE.md` convention (e.g. `style-2/characters/LADY_WOOFINGTON-BARKS.png`) — a drop-in ref set for the render pipeline. Includes the full Series Bible roster **plus 13 new characters** not yet in the bible (Baron Drago von Knottenheim, Countess Valentina Meowkowski, Doña Esperanza del Fuego, Lady Ermengarde Floppsworth, Lord Percival Gobbleton, Madame Fifi la Plume, Sir Reginald Bumblechin III, The Archbishop of Snootington, The Honourable Gerald Wobblethwaite, Viscount Reginald Puddlesworth, Lt. Goodpaw, Professor Humphrey, Uncle Gardiner) — these still need bible entries.
 
 ---
+
+## Gaps — all filled
+
+- ✅ Full character roster now in **both** styles (was 9-only in style-1).
+- ✅ Full location set now in **both** styles.
+- ✅ `EXT. COUNTRY LANE – NIGHT` rendered in **both** styles (premium photoreal + vintage).
 
 ## Storage
 
-Style-2 PNGs are tracked with **Git LFS** (`.gitattributes`: `style-2/**/*.png`) to keep clones lean. After cloning: `git lfs install` then `git lfs pull`.
-
-## Known gaps (for reconciliation)
-
-- Style-1 only covers the 9 core characters; the remaining roster is style-2 only.
-- `EXT. COUNTRY LANE – NIGHT` (Ep.1 script) has no premium style-2 render yet (a style-mismatched test plate exists outside the repo).
+Style-1 and style-2 raster refs are tracked with **Git LFS** (`.gitattributes`). After cloning: `git lfs install && git lfs pull`. Total LFS ≈ 0.57 GB.

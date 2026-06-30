@@ -1,10 +1,7 @@
 # STYLE-2 MANIFEST — Premium Render Set
 
-Hyperreal MidJourney/Seedream character & location refs. **One canonical ref per subject** (single source of truth).
-**52 characters · 32 locations = 84 refs.**
-
-Hero filenames follow the `RENDER_QUEUE.md` convention so `style-2/characters/` is a drop-in ref set for the render pipeline.
-Full alternate-take archive lives outside the repo at `~/Documents/ComfyUI/output/PAWS&PREJUDICE_STYLE2/`.
+Hyperreal MidJourney/Seedream refs. One canonical ref per subject.
+**52 characters · 33 locations = 85 refs.** Drop-in for the render pipeline; full take-archive in `~/Documents/ComfyUI/output/PAWS&PREJUDICE_STYLE2/`.
 
 ---
 
@@ -64,10 +61,11 @@ Full alternate-take archive lives outside the repo at `~/Documents/ComfyUI/outpu
 - **Uncle Gardiner** — `style-2/characters/UNCLE_GARDINER.png`
 - **Viscount Reginald Puddlesworth** — `style-2/characters/VISCOUNT_REGINALD_PUDDLESWORTH.png`
 
-## LOCATIONS (32)
+## LOCATIONS (33)
 - **Collinss Parsonage** — `style-2/locations/COLLINSS_PARSONAGE.png`
 - **Collinss Parsonage Exterior** — `style-2/locations/COLLINSS_PARSONAGE_EXTERIOR.png`
 - **Collinss Parsonage Interior** — `style-2/locations/COLLINSS_PARSONAGE_INTERIOR.png`
+- **Country Lane Night** — `style-2/locations/COUNTRY_LANE_NIGHT.png`
 - **Longbourne Drawingroom** — `style-2/locations/LONGBOURNE_DRAWINGROOM.png`
 - **Longbourn Breakfast Room** — `style-2/locations/LONGBOURN_BREAKFAST_ROOM.png`
 - **Longbourn Exterior** — `style-2/locations/LONGBOURN_EXTERIOR.png`

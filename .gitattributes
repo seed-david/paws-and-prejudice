@@ -1,2 +1,4 @@
-# Style-2 premium renders are large binaries — store in Git LFS
+# Premium + vintage renders are large binaries — store in Git LFS
+style-1/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+style-1/**/*.png filter=lfs diff=lfs merge=lfs -text
 style-2/**/*.png filter=lfs diff=lfs merge=lfs -text

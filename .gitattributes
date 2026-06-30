@@ -1,0 +1,2 @@
+# Style-2 premium renders are large binaries — store in Git LFS
+style-2/**/*.png filter=lfs diff=lfs merge=lfs -text

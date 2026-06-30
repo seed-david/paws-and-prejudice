@@ -1,0 +1,24 @@
+# PAWS & PREJUDICE — Render & Spending Tracker
+# Generated: 2026-06-30
+# Model: dreamina-seedance-2-0-mini-260615, 720p
+# Video rate: $3.50/M tokens (input without video)
+# Thumbnail: seedream-5-0-lite-260128, $0.035/image
+
+Date,Episode,Version,Duration,Resolution,Video Tokens,Video USD,Thumbnail USD,Total USD,Status,Notes
+2026-06-30,EP.01,v2,15s,720p,324900,1.14,0.035,1.18,✅,Rewritten dialogue - tighter TikTok pacing
+2026-06-30,EP.02,v2,15s,720p,324900,1.14,0.035,1.18,✅,"Darcy introduced, Regency waltz"
+2026-06-30,EP.03,v2,15s,720p,324900,1.14,0.035,1.18,✅,"Darcy insults Eliza, nose flick"
+2026-06-30,EP.08,test,15s,720p,324900,1.14,0.035,1.18,✅,"Kitty follows Lydia, 4 seconds of resistance"
+2026-06-30,EP.20,test,15s,720p,324900,1.14,0.035,1.18,✅,"Ball invitation, retry after audio moderation fail"
+2026-06-30,EP.30,test,15s,720p,324900,1.14,0.035,1.18,✅,"Darcy declines to dance, Bingley's tail stops"
+2026-06-30,EP.40,test,15s,720p,324900,1.14,0.035,1.18,✅,"Darcy's private moment, thinks about Eliza"
+2026-06-30,EP.01,v3_FINAL,15s,720p,324900,1.14,0.000,1.14,✅,"Pre-rewrite final, music/SFX cues added"
+2026-06-30,LOGO,main,-,1920x1920,-,0.000,0.035,0.04,✅,Main title treatment
+2026-06-30,LOGO,icon,-,1920x1920,-,0.000,0.035,0.04,✅,Profile icon circular
+2026-06-30,THUMB,template,-,1920x1920,-,0.000,0.035,0.04,✅,Frame template
+2026-06-30,THUMB,ep01,-,1920x1920,-,0.000,0.035,0.04,✅,EP.01 thumbnail art
+
+--- TOTALS ---
+,Video Renders,8,,,,9.12,0.245,9.37,,
+,Images,4,,,,0.00,0.140,0.14,,
+,GRAND TOTAL,,,,,,9.12,0.385,9.50,,

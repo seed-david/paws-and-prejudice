@@ -9,7 +9,7 @@ _Rewritten per Showrunner Brief | 2026-06-30_
 **Music:** Frantic harpsichord → dead stop
 
 DIALOGUE:
-LADY W-B: *BURSTING THROUGH DOOR* BISCUIT. CAT. NETHERFIELD. RICH.
+LADY W-B: *BURSTING THROUGH DOOR* BISCUIT-BOTTOMS. CAT. NETHERFIELD. RICH.
 LORD BISCUIT: *muffled behind newspaper* Mm.
 LADY W-B: FIVE DAUGHTERS.
 NARRATOR: He has not turned a page in 12 years.

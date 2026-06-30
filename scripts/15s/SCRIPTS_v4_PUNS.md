@@ -22,14 +22,12 @@ _Rewritten with fresh cat/dog pun names — no resemblance to Austen originals |
 DIALOGUE:
 LADY W-B: *BURSTING THROUGH DOOR* BISCUIT-BOTTOMS. CAT. CATNIP HALL. SWIMMING IN CATNIP MONEY.
 LORD BISCUIT: *muffled behind newspaper* Mm.
-LADY W-B: FIVE UNMARRIED PAWS.
-NARRATOR: He has not turned a page in 12 years.
-
+LADY W-B: FIVE DAUGHTERS.
 PHYSICAL ACTION:
-Lady Woofington vibrates so hard her bonnet slips. She slams both paws on the table. Lord Biscuit does not move. Not one muscle. His newspaper does not even shift.
+Lady Woofington vibrates so hard her bonnet slips. She slams both paws on the table. Lord Biscuit does not move. Not one muscle. His newspaper does not even shift. Then — slowly, deliberately, with the contempt of a god — one paw reaches up. Grips the corner of the page. Turns it. Once.
 
 HOOK:
-She stares directly at camera. He is still reading.
+She stares directly at camera. He is still reading. The page has been turned. Nothing has changed.
 
 ---
 

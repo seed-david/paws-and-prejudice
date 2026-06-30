@@ -1,15 +1,26 @@
 # PAWS & PREJUDICE — Scripts v4 | FULL PUN REWRITE
-_Rewritten with canonical location puns | 2026-06-30_
-✅ MAX 1 NARRATOR LINE PER EPISODE ✅ CHARACTERS CARRY EVERYTHING ✅ 15s TIGHT
+_Rewritten with fresh cat/dog pun names — no resemblance to Austen originals | 2026-06-30_
+✅ MAX 1 NARRATOR LINE ✅ CHARACTERS DRIVE ✅ 15s TIGHT
 
+## LOCATION NAME MAP
+- Netherfield Park → **Catnip Hall**
+- Longbourn → **Howlworth Cottage**
+- Meryton → **Snoutsbury**
+- Pemberley → **Whiskerfield Abbey**
+- Rosings → **Scratchington Palace**
+- Lucas Lodge → **Labrador Lodge**
+- Hunsford Parsonage → **Chihuahua Cottage**
+- The Spotted Hound (inn) → keep — already perfect
+
+---
 
 ## EP.01: "A Single Dog of Good Fortune" [15s]
 **Characters:** Lady Woofington-Barks (Pomeranian), Lord Biscuit-Bottoms (Basset Hound)
-**Location:** Longbone House Drawing Room
+**Location:** Howlworth Cottage Drawing Room
 **Music:** Frantic harpsichord → dead stop
 
 DIALOGUE:
-LADY W-B: *BURSTING THROUGH DOOR* BISCUIT-BOTTOMS. CAT. NETHERFUR PARK. SWIMMING IN CATNIP MONEY.
+LADY W-B: *BURSTING THROUGH DOOR* BISCUIT-BOTTOMS. CAT. CATNIP HALL. SWIMMING IN CATNIP MONEY.
 LORD BISCUIT: *muffled behind newspaper* Mm.
 LADY W-B: FIVE UNMARRIED PAWS.
 NARRATOR: He has not turned a page in 12 years.
@@ -20,10 +31,11 @@ Lady Woofington vibrates so hard her bonnet slips. She slams both paws on the ta
 HOOK:
 She stares directly at camera. He is still reading.
 
+---
 
 ## EP.02: "He Dances With NOBODY" [15s]
 **Characters:** Lady Woofington-Barks, Lord Biscuit-Bottoms, Lord Darcy Pawsworth (tuxedo cat)
-**Location:** Netherfur Park Ballroom
+**Location:** Catnip Hall Ballroom
 **Music:** Waltz cuts out completely on beat 7
 
 DIALOGUE:
@@ -38,10 +50,11 @@ Darcy stands perfectly still against the wall. Does not blink. Does not breathe.
 HOOK:
 Lord Biscuit opens one eye. Just one.
 
+---
 
 ## EP.03: "Tolerable, I Suppose" [15s]
 **Characters:** Lord Darcy Pawsworth, Eliza Fetchworth (Border Collie)
-**Location:** Barkington Assembly Rooms curtain edge
+**Location:** Snoutsbury Assembly Rooms curtain edge
 **Music:** Sustained cello note → crack of silence
 
 DIALOGUE:
@@ -56,10 +69,11 @@ Darcy walks away without another word. Does not look back. Eliza stands perfectl
 HOOK:
 She does not look away.
 
+---
 
 ## EP.04: "Five Daughters, Zero Plans" [15s]
 **Characters:** Lady Woofington-Barks, Lord Biscuit-Bottoms
-**Location:** Longbone House Drawing Room, 2am
+**Location:** Howlworth Cottage Drawing Room, 2am
 **Music:** Panicked harpsichord spirals → cuts hard
 
 DIALOGUE:
@@ -74,14 +88,15 @@ Lady Woofington paces. Her bonnet is half shredded. Offscreen one very wrong pia
 HOOK:
 He very slowly turns a page.
 
+---
 
 ## EP.05: "The Letter" [15s]
 **Characters:** Eliza Fetchworth
-**Location:** Longbone House rose garden, dawn
+**Location:** Howlworth Cottage rose garden, dawn
 **Music:** Three sharp string stabs → total silence
 
 DIALOGUE:
-ELIZA: *quiet* Bingley bolted back to Netherfur. Caroline scratched this out.
+ELIZA: *quiet* Bingley bolted back to Catnip Hall. Caroline scratched this out.
 ELIZA: Says Jane doesn't wag right.
 NARRATOR: Nobody ever recovers from the first bad letter.
 
@@ -91,21 +106,13 @@ Eliza sits down in the dirt. Does not care that her dress is getting muddy. A ro
 HOOK:
 She folds the letter tiny. Locks eyes with camera. Jane doesn't know.
 
-
 ---
+
 ✅ COMPLIANCE CHECK:
 - 1 narrator line exactly per episode
-- All exposition removed from narrator
-- Every line is character dialogue
-- All location names replaced with canonical pun versions
-- Natural dog/cat puns added naturally into dialogue without forcing
+- All location names completely fresh — no resemblance to Austen
+- Natural dog/cat puns in dialogue
 - Physical action drives 70% of story
 - All episodes 15s runtime compatible
 - Continuity intact
 - Each ends on a clean hook
-
-✅ PUN LOCATION VERIFICATION:
-✅ Longbourn → Longbone House
-✅ Netherfield Park → Netherfur Park
-✅ Meryton Assembly Rooms → Barkington Assembly Rooms
-✅ All references updated correctly

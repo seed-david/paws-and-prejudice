@@ -49,3 +49,6 @@ SHOW_RUNNER.md
 RENDER_QUEUE.md
 MEMORY.md
 add_subs.sh
+
+# Rendered videos
+renders/
